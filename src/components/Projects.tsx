@@ -30,6 +30,22 @@ const Projects = () => {
       liveDemo: 'https://github.com/jadaunaryansingh?tab=repositories',
       github: 'https://github.com/jadaunaryansingh?tab=repositories',
       gradient: 'from-purple-500 to-pink-500'
+    },
+    
+    {
+      icon: CD,
+      title: 'Automation First Project  — Jenkins-CI/CD Pipeline automation',
+      description: 'Tools: Git,Docker-Hub,Jenkins,GitHub',
+      features: [
+        'First Jenkins Project',
+        'Integrated Jenkins CI/CD pipeline',
+        'Build every minute automatically',
+        'Docker containerization',
+        'Code on Github'
+      ],
+      liveDemo: 'https://github.com/jadaunaryansingh?tab=repositories',
+      github: 'https://github.com/jadaunaryansingh?tab=repositories',
+      gradient: 'from-purple-500 to-pink-500'
     }
   ];
 
