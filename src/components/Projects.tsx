@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, Github, Bot, Wrench } from 'lucide-react';
+import { ExternalLink, Github, Bot, Wrench, Rocket } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
