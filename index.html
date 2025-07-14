@@ -2,27 +2,52 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    
+    <!-- ✅ Your custom profile image as favicon -->
+    <link rel="icon" type="image/jpeg" href="/profile.jpg" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aryan Singh Jadaun - Portfolio</title>
+
+    <!-- ✅ Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ✅ AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
+
   <body>
+    <!-- ✅ Preloader -->
     <div id="preloader">
       <div class="loader">
         <div class="loader-circle"></div>
         <div class="loader-text">Loading...</div>
       </div>
     </div>
-    
+
+    <!-- ✅ Custom Cursor Elements -->
     <div id="custom-cursor"></div>
     <div id="cursor-follower"></div>
-    
+
+    <!-- ✅ React App Mount Point -->
     <div id="root"></div>
+
+    <!-- ✅ Main Vite Bundle -->
     <script type="module" src="/src/main.tsx"></script>
+
+    <!-- ✅ AOS JS Init -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+        offset: 50,
+      });
+    </script>
   </body>
 </html>
