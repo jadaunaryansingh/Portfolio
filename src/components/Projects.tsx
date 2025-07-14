@@ -33,7 +33,7 @@ const Projects = () => {
     },
     
     {
-  icon: 'Rocket',
+  icon: Rocket,
   title: 'AutoDock-Jenkins: CI/CD Pipeline Automation',
   description: 'Tools: Git, Docker Hub, Jenkins, GitHub',
   features: [
