@@ -33,7 +33,7 @@ const Projects = () => {
     },
     
     {
-      icon: CD,
+      icon: Wrench,
       title: 'Automation First Project  — Jenkins-CI/CD Pipeline automation',
       description: 'Tools: Git,Docker-Hub,Jenkins,GitHub',
       features: [
